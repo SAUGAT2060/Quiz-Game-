@@ -1,0 +1,91 @@
+/* Basic styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f06, #ffcc00);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Quiz container styling */
+.quiz-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 450px;
+  font-size: 18px;
+}
+
+/* Header styling */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Image for the question */
+.question-image {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Button styling for options */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Hover effect on buttons */
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Icon styling for the options */
+.option-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Result text styling */
+#result-text {
+  color: #333;
+  font-size: 20px;
+}
+
+/* Timer container styling */
+#timer-container p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Hide elements with 'hidden' class */
+.hidden {
+  display: none;
+}
+
+/* Progress bar container styling */
+#progress-bar-container {
+  margin-top: 20px;
+}
+
+/* Progress bar styling */
+progress {
+  width: 100%;
+  height: 20px;
+}
